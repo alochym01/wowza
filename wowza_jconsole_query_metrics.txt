@@ -1,0 +1,1264 @@
+com.sun.management:type=HotSpotDiagnostic/DiagnosticOptions
+com.sun.management:type=HotSpotDiagnostic/ObjectName
+java.lang:type=ClassLoading/LoadedClassCount
+java.lang:type=ClassLoading/ObjectName
+java.lang:type=ClassLoading/TotalLoadedClassCount
+java.lang:type=ClassLoading/UnloadedClassCount
+java.lang:type=ClassLoading/Verbose
+java.lang:type=Compilation/CompilationTimeMonitoringSupported
+java.lang:type=Compilation/Name
+java.lang:type=Compilation/ObjectName
+java.lang:type=Compilation/TotalCompilationTime
+java.lang:type=GarbageCollector,name=G1 Old Generation/CollectionCount
+java.lang:type=GarbageCollector,name=G1 Old Generation/CollectionTime
+java.lang:type=GarbageCollector,name=G1 Old Generation/LastGcInfo
+java.lang:type=GarbageCollector,name=G1 Old Generation/MemoryPoolNames
+java.lang:type=GarbageCollector,name=G1 Old Generation/Name
+java.lang:type=GarbageCollector,name=G1 Old Generation/ObjectName
+java.lang:type=GarbageCollector,name=G1 Old Generation/Valid
+java.lang:type=GarbageCollector,name=G1 Young Generation/CollectionCount
+java.lang:type=GarbageCollector,name=G1 Young Generation/CollectionTime
+java.lang:type=GarbageCollector,name=G1 Young Generation/LastGcInfo/duration
+java.lang:type=GarbageCollector,name=G1 Young Generation/LastGcInfo/endTime
+java.lang:type=GarbageCollector,name=G1 Young Generation/LastGcInfo/GcThreadCount
+java.lang:type=GarbageCollector,name=G1 Young Generation/LastGcInfo/id
+java.lang:type=GarbageCollector,name=G1 Young Generation/LastGcInfo/memoryUsageAfterGc
+java.lang:type=GarbageCollector,name=G1 Young Generation/LastGcInfo/memoryUsageBeforeGc
+java.lang:type=GarbageCollector,name=G1 Young Generation/LastGcInfo/startTime
+java.lang:type=GarbageCollector,name=G1 Young Generation/MemoryPoolNames
+java.lang:type=GarbageCollector,name=G1 Young Generation/Name
+java.lang:type=GarbageCollector,name=G1 Young Generation/ObjectName
+java.lang:type=GarbageCollector,name=G1 Young Generation/Valid
+java.lang:type=Memory/HeapMemoryUsage/committed
+java.lang:type=Memory/HeapMemoryUsage/init
+java.lang:type=Memory/HeapMemoryUsage/max
+java.lang:type=Memory/HeapMemoryUsage/used
+java.lang:type=MemoryManager,name=CodeCacheManager/MemoryPoolNames
+java.lang:type=MemoryManager,name=CodeCacheManager/Name
+java.lang:type=MemoryManager,name=CodeCacheManager/ObjectName
+java.lang:type=MemoryManager,name=CodeCacheManager/Valid
+java.lang:type=MemoryManager,name=Metaspace Manager/MemoryPoolNames
+java.lang:type=MemoryManager,name=Metaspace Manager/Name
+java.lang:type=MemoryManager,name=Metaspace Manager/ObjectName
+java.lang:type=MemoryManager,name=Metaspace Manager/Valid
+java.lang:type=Memory/NonHeapMemoryUsage/committed
+java.lang:type=Memory/NonHeapMemoryUsage/init
+java.lang:type=Memory/NonHeapMemoryUsage/max
+java.lang:type=Memory/NonHeapMemoryUsage/used
+java.lang:type=Memory/ObjectName
+java.lang:type=Memory/ObjectPendingFinalizationCount
+java.lang:type=MemoryPool,name=Code Cache/CollectionUsage
+java.lang:type=MemoryPool,name=Code Cache/CollectionUsageThreshold
+java.lang:type=MemoryPool,name=Code Cache/CollectionUsageThresholdCount
+java.lang:type=MemoryPool,name=Code Cache/CollectionUsageThresholdExceeded
+java.lang:type=MemoryPool,name=Code Cache/CollectionUsageThresholdSupported
+java.lang:type=MemoryPool,name=Code Cache/MemoryManagerNames
+java.lang:type=MemoryPool,name=Code Cache/Name
+java.lang:type=MemoryPool,name=Code Cache/ObjectName
+java.lang:type=MemoryPool,name=Code Cache/PeakUsage/committed
+java.lang:type=MemoryPool,name=Code Cache/PeakUsage/init
+java.lang:type=MemoryPool,name=Code Cache/PeakUsage/max
+java.lang:type=MemoryPool,name=Code Cache/PeakUsage/used
+java.lang:type=MemoryPool,name=Code Cache/Type
+java.lang:type=MemoryPool,name=Code Cache/Usage/committed
+java.lang:type=MemoryPool,name=Code Cache/Usage/init
+java.lang:type=MemoryPool,name=Code Cache/Usage/max
+java.lang:type=MemoryPool,name=Code Cache/UsageThreshold
+java.lang:type=MemoryPool,name=Code Cache/UsageThresholdCount
+java.lang:type=MemoryPool,name=Code Cache/UsageThresholdExceeded
+java.lang:type=MemoryPool,name=Code Cache/UsageThresholdSupported
+java.lang:type=MemoryPool,name=Code Cache/Usage/used
+java.lang:type=MemoryPool,name=Code Cache/Valid
+java.lang:type=MemoryPool,name=Compressed Class Space/CollectionUsage
+java.lang:type=MemoryPool,name=Compressed Class Space/CollectionUsageThreshold
+java.lang:type=MemoryPool,name=Compressed Class Space/CollectionUsageThresholdCount
+java.lang:type=MemoryPool,name=Compressed Class Space/CollectionUsageThresholdExceeded
+java.lang:type=MemoryPool,name=Compressed Class Space/CollectionUsageThresholdSupported
+java.lang:type=MemoryPool,name=Compressed Class Space/MemoryManagerNames
+java.lang:type=MemoryPool,name=Compressed Class Space/Name
+java.lang:type=MemoryPool,name=Compressed Class Space/ObjectName
+java.lang:type=MemoryPool,name=Compressed Class Space/PeakUsage/committed
+java.lang:type=MemoryPool,name=Compressed Class Space/PeakUsage/init
+java.lang:type=MemoryPool,name=Compressed Class Space/PeakUsage/max
+java.lang:type=MemoryPool,name=Compressed Class Space/PeakUsage/used
+java.lang:type=MemoryPool,name=Compressed Class Space/Type
+java.lang:type=MemoryPool,name=Compressed Class Space/Usage/committed
+java.lang:type=MemoryPool,name=Compressed Class Space/Usage/init
+java.lang:type=MemoryPool,name=Compressed Class Space/Usage/max
+java.lang:type=MemoryPool,name=Compressed Class Space/UsageThreshold
+java.lang:type=MemoryPool,name=Compressed Class Space/UsageThresholdCount
+java.lang:type=MemoryPool,name=Compressed Class Space/UsageThresholdExceeded
+java.lang:type=MemoryPool,name=Compressed Class Space/UsageThresholdSupported
+java.lang:type=MemoryPool,name=Compressed Class Space/Usage/used
+java.lang:type=MemoryPool,name=Compressed Class Space/Valid
+java.lang:type=MemoryPool,name=G1 Eden Space/CollectionUsage/committed
+java.lang:type=MemoryPool,name=G1 Eden Space/CollectionUsage/init
+java.lang:type=MemoryPool,name=G1 Eden Space/CollectionUsage/max
+java.lang:type=MemoryPool,name=G1 Eden Space/CollectionUsageThreshold
+java.lang:type=MemoryPool,name=G1 Eden Space/CollectionUsageThresholdCount
+java.lang:type=MemoryPool,name=G1 Eden Space/CollectionUsageThresholdExceeded
+java.lang:type=MemoryPool,name=G1 Eden Space/CollectionUsageThresholdSupported
+java.lang:type=MemoryPool,name=G1 Eden Space/CollectionUsage/used
+java.lang:type=MemoryPool,name=G1 Eden Space/MemoryManagerNames
+java.lang:type=MemoryPool,name=G1 Eden Space/Name
+java.lang:type=MemoryPool,name=G1 Eden Space/ObjectName
+java.lang:type=MemoryPool,name=G1 Eden Space/PeakUsage/committed
+java.lang:type=MemoryPool,name=G1 Eden Space/PeakUsage/init
+java.lang:type=MemoryPool,name=G1 Eden Space/PeakUsage/max
+java.lang:type=MemoryPool,name=G1 Eden Space/PeakUsage/used
+java.lang:type=MemoryPool,name=G1 Eden Space/Type
+java.lang:type=MemoryPool,name=G1 Eden Space/Usage/committed
+java.lang:type=MemoryPool,name=G1 Eden Space/Usage/init
+java.lang:type=MemoryPool,name=G1 Eden Space/Usage/max
+java.lang:type=MemoryPool,name=G1 Eden Space/UsageThreshold
+java.lang:type=MemoryPool,name=G1 Eden Space/UsageThresholdCount
+java.lang:type=MemoryPool,name=G1 Eden Space/UsageThresholdExceeded
+java.lang:type=MemoryPool,name=G1 Eden Space/UsageThresholdSupported
+java.lang:type=MemoryPool,name=G1 Eden Space/Usage/used
+java.lang:type=MemoryPool,name=G1 Eden Space/Valid
+java.lang:type=MemoryPool,name=G1 Old Gen/CollectionUsage/committed
+java.lang:type=MemoryPool,name=G1 Old Gen/CollectionUsage/init
+java.lang:type=MemoryPool,name=G1 Old Gen/CollectionUsage/max
+java.lang:type=MemoryPool,name=G1 Old Gen/CollectionUsageThreshold
+java.lang:type=MemoryPool,name=G1 Old Gen/CollectionUsageThresholdCount
+java.lang:type=MemoryPool,name=G1 Old Gen/CollectionUsageThresholdExceeded
+java.lang:type=MemoryPool,name=G1 Old Gen/CollectionUsageThresholdSupported
+java.lang:type=MemoryPool,name=G1 Old Gen/CollectionUsage/used
+java.lang:type=MemoryPool,name=G1 Old Gen/MemoryManagerNames
+java.lang:type=MemoryPool,name=G1 Old Gen/Name
+java.lang:type=MemoryPool,name=G1 Old Gen/ObjectName
+java.lang:type=MemoryPool,name=G1 Old Gen/PeakUsage/committed
+java.lang:type=MemoryPool,name=G1 Old Gen/PeakUsage/init
+java.lang:type=MemoryPool,name=G1 Old Gen/PeakUsage/max
+java.lang:type=MemoryPool,name=G1 Old Gen/PeakUsage/used
+java.lang:type=MemoryPool,name=G1 Old Gen/Type
+java.lang:type=MemoryPool,name=G1 Old Gen/Usage/committed
+java.lang:type=MemoryPool,name=G1 Old Gen/Usage/init
+java.lang:type=MemoryPool,name=G1 Old Gen/Usage/max
+java.lang:type=MemoryPool,name=G1 Old Gen/UsageThreshold
+java.lang:type=MemoryPool,name=G1 Old Gen/UsageThresholdCount
+java.lang:type=MemoryPool,name=G1 Old Gen/UsageThresholdExceeded
+java.lang:type=MemoryPool,name=G1 Old Gen/UsageThresholdSupported
+java.lang:type=MemoryPool,name=G1 Old Gen/Usage/used
+java.lang:type=MemoryPool,name=G1 Old Gen/Valid
+java.lang:type=MemoryPool,name=G1 Survivor Space/CollectionUsage/committed
+java.lang:type=MemoryPool,name=G1 Survivor Space/CollectionUsage/init
+java.lang:type=MemoryPool,name=G1 Survivor Space/CollectionUsage/max
+java.lang:type=MemoryPool,name=G1 Survivor Space/CollectionUsageThreshold
+java.lang:type=MemoryPool,name=G1 Survivor Space/CollectionUsageThresholdCount
+java.lang:type=MemoryPool,name=G1 Survivor Space/CollectionUsageThresholdExceeded
+java.lang:type=MemoryPool,name=G1 Survivor Space/CollectionUsageThresholdSupported
+java.lang:type=MemoryPool,name=G1 Survivor Space/CollectionUsage/used
+java.lang:type=MemoryPool,name=G1 Survivor Space/MemoryManagerNames
+java.lang:type=MemoryPool,name=G1 Survivor Space/Name
+java.lang:type=MemoryPool,name=G1 Survivor Space/ObjectName
+java.lang:type=MemoryPool,name=G1 Survivor Space/PeakUsage/committed
+java.lang:type=MemoryPool,name=G1 Survivor Space/PeakUsage/init
+java.lang:type=MemoryPool,name=G1 Survivor Space/PeakUsage/max
+java.lang:type=MemoryPool,name=G1 Survivor Space/PeakUsage/used
+java.lang:type=MemoryPool,name=G1 Survivor Space/Type
+java.lang:type=MemoryPool,name=G1 Survivor Space/Usage/committed
+java.lang:type=MemoryPool,name=G1 Survivor Space/Usage/init
+java.lang:type=MemoryPool,name=G1 Survivor Space/Usage/max
+java.lang:type=MemoryPool,name=G1 Survivor Space/UsageThreshold
+java.lang:type=MemoryPool,name=G1 Survivor Space/UsageThresholdCount
+java.lang:type=MemoryPool,name=G1 Survivor Space/UsageThresholdExceeded
+java.lang:type=MemoryPool,name=G1 Survivor Space/UsageThresholdSupported
+java.lang:type=MemoryPool,name=G1 Survivor Space/Usage/used
+java.lang:type=MemoryPool,name=G1 Survivor Space/Valid
+java.lang:type=MemoryPool,name=Metaspace/CollectionUsage
+java.lang:type=MemoryPool,name=Metaspace/CollectionUsageThreshold
+java.lang:type=MemoryPool,name=Metaspace/CollectionUsageThresholdCount
+java.lang:type=MemoryPool,name=Metaspace/CollectionUsageThresholdExceeded
+java.lang:type=MemoryPool,name=Metaspace/CollectionUsageThresholdSupported
+java.lang:type=MemoryPool,name=Metaspace/MemoryManagerNames
+java.lang:type=MemoryPool,name=Metaspace/Name
+java.lang:type=MemoryPool,name=Metaspace/ObjectName
+java.lang:type=MemoryPool,name=Metaspace/PeakUsage/committed
+java.lang:type=MemoryPool,name=Metaspace/PeakUsage/init
+java.lang:type=MemoryPool,name=Metaspace/PeakUsage/max
+java.lang:type=MemoryPool,name=Metaspace/PeakUsage/used
+java.lang:type=MemoryPool,name=Metaspace/Type
+java.lang:type=MemoryPool,name=Metaspace/Usage/committed
+java.lang:type=MemoryPool,name=Metaspace/Usage/init
+java.lang:type=MemoryPool,name=Metaspace/Usage/max
+java.lang:type=MemoryPool,name=Metaspace/UsageThreshold
+java.lang:type=MemoryPool,name=Metaspace/UsageThresholdCount
+java.lang:type=MemoryPool,name=Metaspace/UsageThresholdExceeded
+java.lang:type=MemoryPool,name=Metaspace/UsageThresholdSupported
+java.lang:type=MemoryPool,name=Metaspace/Usage/used
+java.lang:type=MemoryPool,name=Metaspace/Valid
+java.lang:type=Memory/Verbose
+java.lang:type=OperatingSystem/Arch
+java.lang:type=OperatingSystem/AvailableProcessors
+java.lang:type=OperatingSystem/CommittedVirtualMemorySize
+java.lang:type=OperatingSystem/FreePhysicalMemorySize
+java.lang:type=OperatingSystem/FreeSwapSpaceSize
+java.lang:type=OperatingSystem/MaxFileDescriptorCount
+java.lang:type=OperatingSystem/Name
+java.lang:type=OperatingSystem/ObjectName
+java.lang:type=OperatingSystem/OpenFileDescriptorCount
+java.lang:type=OperatingSystem/ProcessCpuLoad
+java.lang:type=OperatingSystem/ProcessCpuTime
+java.lang:type=OperatingSystem/SystemCpuLoad
+java.lang:type=OperatingSystem/SystemLoadAverage
+java.lang:type=OperatingSystem/TotalPhysicalMemorySize
+java.lang:type=OperatingSystem/TotalSwapSpaceSize
+java.lang:type=OperatingSystem/Version
+java.lang:type=Runtime/BootClassPath
+java.lang:type=Runtime/BootClassPathSupported
+java.lang:type=Runtime/ClassPath
+java.lang:type=Runtime/InputArguments
+java.lang:type=Runtime/LibraryPath
+java.lang:type=Runtime/ManagementSpecVersion
+java.lang:type=Runtime/Name
+java.lang:type=Runtime/ObjectName
+java.lang:type=Runtime/SpecName
+java.lang:type=Runtime/SpecVendor
+java.lang:type=Runtime/SpecVersion
+java.lang:type=Runtime/StartTime
+java.lang:type=Runtime/SystemProperties
+java.lang:type=Runtime/Uptime
+java.lang:type=Runtime/VmName
+java.lang:type=Runtime/VmVendor
+java.lang:type=Runtime/VmVersion
+java.lang:type=Threading/AllThreadIds
+java.lang:type=Threading/CurrentThreadCpuTime
+java.lang:type=Threading/CurrentThreadCpuTimeSupported
+java.lang:type=Threading/CurrentThreadUserTime
+java.lang:type=Threading/DaemonThreadCount
+java.lang:type=Threading/ObjectMonitorUsageSupported
+java.lang:type=Threading/ObjectName
+java.lang:type=Threading/PeakThreadCount
+java.lang:type=Threading/SynchronizerUsageSupported
+java.lang:type=Threading/ThreadAllocatedMemoryEnabled
+java.lang:type=Threading/ThreadAllocatedMemorySupported
+java.lang:type=Threading/ThreadContentionMonitoringEnabled
+java.lang:type=Threading/ThreadContentionMonitoringSupported
+java.lang:type=Threading/ThreadCount
+java.lang:type=Threading/ThreadCpuTimeEnabled
+java.lang:type=Threading/ThreadCpuTimeSupported
+java.lang:type=Threading/TotalStartedThreadCount
+java.nio:type=BufferPool,name=direct/Count
+java.nio:type=BufferPool,name=direct/MemoryUsed
+java.nio:type=BufferPool,name=direct/Name
+java.nio:type=BufferPool,name=direct/ObjectName
+java.nio:type=BufferPool,name=direct/TotalCapacity
+java.nio:type=BufferPool,name=mapped/Count
+java.nio:type=BufferPool,name=mapped/MemoryUsed
+java.nio:type=BufferPool,name=mapped/Name
+java.nio:type=BufferPool,name=mapped/ObjectName
+java.nio:type=BufferPool,name=mapped/TotalCapacity
+java.util.logging:type=Logging/LoggerNames
+java.util.logging:type=Logging/ObjectName
+JMImplementation:type=MBeanServerDelegate/ImplementationName
+JMImplementation:type=MBeanServerDelegate/ImplementationVendor
+JMImplementation:type=MBeanServerDelegate/ImplementationVersion
+JMImplementation:type=MBeanServerDelegate/MBeanServerId
+JMImplementation:type=MBeanServerDelegate/SpecificationName
+JMImplementation:type=MBeanServerDelegate/SpecificationVendor
+JMImplementation:type=MBeanServerDelegate/SpecificationVersion
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheSources=Sources,mediaCacheSource=dvrorigin,name=MediaCacheSource/baseClass
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheSources=Sources,mediaCacheSource=dvrorigin,name=MediaCacheSource/defaultBlockSize
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheSources=Sources,mediaCacheSource=dvrorigin,name=MediaCacheSource/description
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheSources=Sources,mediaCacheSource=dvrorigin,name=MediaCacheSource/maxTimeToLive
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheSources=Sources,mediaCacheSource=dvrorigin,name=MediaCacheSource/mediaCache
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheSources=Sources,mediaCacheSource=dvrorigin,name=MediaCacheSource/minTimeToLive
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheSources=Sources,mediaCacheSource=dvrorigin,name=MediaCacheSource/modelerType
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheSources=Sources,mediaCacheSource=dvrorigin,name=MediaCacheSource/name
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheSources=Sources,mediaCacheSource=dvrorigin,name=MediaCacheSource/passThru
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheSources=Sources,mediaCacheSource=dvrorigin,name=MediaCacheSource/performanceCount
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheSources=Sources,mediaCacheSource=dvrorigin,name=MediaCacheSource/prefix
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheSources=Sources,mediaCacheSource=dvrorigin,name=MediaCacheSource/readAhead
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheSources=Sources,mediaCacheSource=dvrorigin,name=MediaCacheSource/readAheadThreshold
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheSources=Sources,mediaCacheSource=dvrorigin,name=MediaCacheSource/readerClass
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheSources=Sources,mediaCacheSource=dvrorigin,name=MediaCacheSource/sourcePath
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=MediaCacheStore/currentSize
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=MediaCacheStore/description
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=MediaCacheStore/fileCount
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=MediaCacheStore/itemsAddedToStore
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=MediaCacheStore/itemsInStore
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=MediaCacheStore/level1FolderCount
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=MediaCacheStore/level2FolderCount
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=MediaCacheStore/maxSize
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=MediaCacheStore/modelerType
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=MediaCacheStore/name
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=MediaCacheStore/path
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=MediaCacheStore/percentFull
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=MediaCacheStore/writeRate
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=MediaCacheStore/writeRateFillFrequency
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=MediaCacheStore/writeRateMaxBucketSize
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=WriteRateLimiter/alive
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=WriteRateLimiter/bucketSize
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=WriteRateLimiter/daemon
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=WriteRateLimiter/fillFrequency
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=WriteRateLimiter/id
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=WriteRateLimiter/interrupted
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=WriteRateLimiter/maxBucketSize
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=WriteRateLimiter/modelerType
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=WriteRateLimiter/name
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=WriteRateLimiter/priority
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=WriteRateLimiter/rate
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=WriteRateLimiter/running
+WowzaStreamingEngine:mediaCache=MediaCache,mediaCacheStores=Stores,mediaCacheStore=%2Fusr%2Flocal%2FWowzaStreamingEngine%2Fmediacache,name=WriteRateLimiter/throughput
+WowzaStreamingEngine:mediaCache=MediaCache,name=IOPerformance/hitPendingWrites
+WowzaStreamingEngine:mediaCache=MediaCache,name=IOPerformance/hitPendingWritesRate
+WowzaStreamingEngine:mediaCache=MediaCache,name=IOPerformance/hitStore
+WowzaStreamingEngine:mediaCache=MediaCache,name=IOPerformance/hitStoreRate
+WowzaStreamingEngine:mediaCache=MediaCache,name=IOPerformance/missNotInCache
+WowzaStreamingEngine:mediaCache=MediaCache,name=IOPerformance/missNotInCacheRate
+WowzaStreamingEngine:mediaCache=MediaCache,name=IOPerformance/missStoreFull
+WowzaStreamingEngine:mediaCache=MediaCache,name=IOPerformance/missStoreFullRate
+WowzaStreamingEngine:mediaCache=MediaCache,name=IOPerformance/missWriteFull
+WowzaStreamingEngine:mediaCache=MediaCache,name=IOPerformance/missWriteFullRate
+WowzaStreamingEngine:mediaCache=MediaCache,name=IOPerformance/modelerType
+WowzaStreamingEngine:mediaCache=MediaCache,name=IOPerformance/readCache
+WowzaStreamingEngine:mediaCache=MediaCache,name=IOPerformance/readCacheRate
+WowzaStreamingEngine:mediaCache=MediaCache,name=IOPerformance/readPassThru
+WowzaStreamingEngine:mediaCache=MediaCache,name=IOPerformance/readPassThruRate
+WowzaStreamingEngine:mediaCache=MediaCache,name=IOPerformance/readSource
+WowzaStreamingEngine:mediaCache=MediaCache,name=IOPerformance/readSourceRate
+WowzaStreamingEngine:mediaCache=MediaCache,name=IOPerformance/total
+WowzaStreamingEngine:mediaCache=MediaCache,name=IOPerformance/totalHit
+WowzaStreamingEngine:mediaCache=MediaCache,name=IOPerformance/totalHitRate
+WowzaStreamingEngine:mediaCache=MediaCache,name=IOPerformance/totalMiss
+WowzaStreamingEngine:mediaCache=MediaCache,name=IOPerformance/totalMissRate
+WowzaStreamingEngine:mediaCache=MediaCache,name=IOPerformance/totalRate
+WowzaStreamingEngine:mediaCache=MediaCache,name=MediaCache/addFileExtensionIfNeeded
+WowzaStreamingEngine:mediaCache=MediaCache,name=MediaCache/cacheReadAheadPoolSize
+WowzaStreamingEngine:mediaCache=MediaCache,name=MediaCache/cacheSourceListenerClassStr
+WowzaStreamingEngine:mediaCache=MediaCache,name=MediaCache/cacheStoreItemListenerClassStr
+WowzaStreamingEngine:mediaCache=MediaCache,name=MediaCache/cacheStoreListenerClassStr
+WowzaStreamingEngine:mediaCache=MediaCache,name=MediaCache/cacheWriterPoolSize
+WowzaStreamingEngine:mediaCache=MediaCache,name=MediaCache/contextMapperClassStr
+WowzaStreamingEngine:mediaCache=MediaCache,name=MediaCache/debugLog
+WowzaStreamingEngine:mediaCache=MediaCache,name=MediaCache/gCFrequency
+WowzaStreamingEngine:mediaCache=MediaCache,name=MediaCache/itemCount
+WowzaStreamingEngine:mediaCache=MediaCache,name=MediaCache/maxPendingReadAheadRequestSize
+WowzaStreamingEngine:mediaCache=MediaCache,name=MediaCache/maxPendingWriteRequestSize
+WowzaStreamingEngine:mediaCache=MediaCache,name=MediaCache/modelerType
+WowzaStreamingEngine:mediaCache=MediaCache,name=MediaCache/openFileCount
+WowzaStreamingEngine:mediaCache=MediaCache,name=MediaCache/uRLEscapeStreamNameAll
+WowzaStreamingEngine:mediaCache=MediaCache,name=MediaCache/uRLEscapeStreamNameSpaces
+WowzaStreamingEngine:mediaCache=MediaCache,name=PendingReadAheadRequestTracker/contextStr
+WowzaStreamingEngine:mediaCache=MediaCache,name=PendingReadAheadRequestTracker/debugLog
+WowzaStreamingEngine:mediaCache=MediaCache,name=PendingReadAheadRequestTracker/maxSize
+WowzaStreamingEngine:mediaCache=MediaCache,name=PendingReadAheadRequestTracker/modelerType
+WowzaStreamingEngine:mediaCache=MediaCache,name=PendingReadAheadRequestTracker/pendingRequestSize
+WowzaStreamingEngine:mediaCache=MediaCache,name=PendingWriteRequestTracker/contextStr
+WowzaStreamingEngine:mediaCache=MediaCache,name=PendingWriteRequestTracker/debugLog
+WowzaStreamingEngine:mediaCache=MediaCache,name=PendingWriteRequestTracker/maxSize
+WowzaStreamingEngine:mediaCache=MediaCache,name=PendingWriteRequestTracker/modelerType
+WowzaStreamingEngine:mediaCache=MediaCache,name=PendingWriteRequestTracker/pendingRequestSize
+WowzaStreamingEngine:name=Connections/current
+WowzaStreamingEngine:name=ConnectionsHTTPCupertino/current
+WowzaStreamingEngine:name=ConnectionsHTTPCupertino/lastConnectAcceptedStamp
+WowzaStreamingEngine:name=ConnectionsHTTPCupertino/lastConnectAcceptedStampString
+WowzaStreamingEngine:name=ConnectionsHTTPCupertino/lastConnectAcceptedTimeString
+WowzaStreamingEngine:name=ConnectionsHTTPCupertino/lastConnectRejectedStamp
+WowzaStreamingEngine:name=ConnectionsHTTPCupertino/lastConnectRejectedStampString
+WowzaStreamingEngine:name=ConnectionsHTTPCupertino/lastConnectRejectedTimeString
+WowzaStreamingEngine:name=ConnectionsHTTPCupertino/lastDisconnectStamp
+WowzaStreamingEngine:name=ConnectionsHTTPCupertino/lastDisconnectStampString
+WowzaStreamingEngine:name=ConnectionsHTTPCupertino/lastDisconnectTimeString
+WowzaStreamingEngine:name=ConnectionsHTTPCupertino/modelerType
+WowzaStreamingEngine:name=ConnectionsHTTPCupertino/total
+WowzaStreamingEngine:name=ConnectionsHTTPCupertino/totalAccepted
+WowzaStreamingEngine:name=ConnectionsHTTPCupertino/totalRejected
+WowzaStreamingEngine:name=ConnectionsHTTPMPEGDash/current
+WowzaStreamingEngine:name=ConnectionsHTTPMPEGDash/lastConnectAcceptedStamp
+WowzaStreamingEngine:name=ConnectionsHTTPMPEGDash/lastConnectAcceptedStampString
+WowzaStreamingEngine:name=ConnectionsHTTPMPEGDash/lastConnectAcceptedTimeString
+WowzaStreamingEngine:name=ConnectionsHTTPMPEGDash/lastConnectRejectedStamp
+WowzaStreamingEngine:name=ConnectionsHTTPMPEGDash/lastConnectRejectedStampString
+WowzaStreamingEngine:name=ConnectionsHTTPMPEGDash/lastConnectRejectedTimeString
+WowzaStreamingEngine:name=ConnectionsHTTPMPEGDash/lastDisconnectStamp
+WowzaStreamingEngine:name=ConnectionsHTTPMPEGDash/lastDisconnectStampString
+WowzaStreamingEngine:name=ConnectionsHTTPMPEGDash/lastDisconnectTimeString
+WowzaStreamingEngine:name=ConnectionsHTTPMPEGDash/modelerType
+WowzaStreamingEngine:name=ConnectionsHTTPMPEGDash/total
+WowzaStreamingEngine:name=ConnectionsHTTPMPEGDash/totalAccepted
+WowzaStreamingEngine:name=ConnectionsHTTPMPEGDash/totalRejected
+WowzaStreamingEngine:name=ConnectionsHTTPSanJose/current
+WowzaStreamingEngine:name=ConnectionsHTTPSanJose/lastConnectAcceptedStamp
+WowzaStreamingEngine:name=ConnectionsHTTPSanJose/lastConnectAcceptedStampString
+WowzaStreamingEngine:name=ConnectionsHTTPSanJose/lastConnectAcceptedTimeString
+WowzaStreamingEngine:name=ConnectionsHTTPSanJose/lastConnectRejectedStamp
+WowzaStreamingEngine:name=ConnectionsHTTPSanJose/lastConnectRejectedStampString
+WowzaStreamingEngine:name=ConnectionsHTTPSanJose/lastConnectRejectedTimeString
+WowzaStreamingEngine:name=ConnectionsHTTPSanJose/lastDisconnectStamp
+WowzaStreamingEngine:name=ConnectionsHTTPSanJose/lastDisconnectStampString
+WowzaStreamingEngine:name=ConnectionsHTTPSanJose/lastDisconnectTimeString
+WowzaStreamingEngine:name=ConnectionsHTTPSanJose/modelerType
+WowzaStreamingEngine:name=ConnectionsHTTPSanJose/total
+WowzaStreamingEngine:name=ConnectionsHTTPSanJose/totalAccepted
+WowzaStreamingEngine:name=ConnectionsHTTPSanJose/totalRejected
+WowzaStreamingEngine:name=ConnectionsHTTPSmooth/current
+WowzaStreamingEngine:name=ConnectionsHTTPSmooth/lastConnectAcceptedStamp
+WowzaStreamingEngine:name=ConnectionsHTTPSmooth/lastConnectAcceptedStampString
+WowzaStreamingEngine:name=ConnectionsHTTPSmooth/lastConnectAcceptedTimeString
+WowzaStreamingEngine:name=ConnectionsHTTPSmooth/lastConnectRejectedStamp
+WowzaStreamingEngine:name=ConnectionsHTTPSmooth/lastConnectRejectedStampString
+WowzaStreamingEngine:name=ConnectionsHTTPSmooth/lastConnectRejectedTimeString
+WowzaStreamingEngine:name=ConnectionsHTTPSmooth/lastDisconnectStamp
+WowzaStreamingEngine:name=ConnectionsHTTPSmooth/lastDisconnectStampString
+WowzaStreamingEngine:name=ConnectionsHTTPSmooth/lastDisconnectTimeString
+WowzaStreamingEngine:name=ConnectionsHTTPSmooth/modelerType
+WowzaStreamingEngine:name=ConnectionsHTTPSmooth/total
+WowzaStreamingEngine:name=ConnectionsHTTPSmooth/totalAccepted
+WowzaStreamingEngine:name=ConnectionsHTTPSmooth/totalRejected
+WowzaStreamingEngine:name=Connections/lastConnectAcceptedStamp
+WowzaStreamingEngine:name=Connections/lastConnectAcceptedStampString
+WowzaStreamingEngine:name=Connections/lastConnectAcceptedTimeString
+WowzaStreamingEngine:name=Connections/lastConnectRejectedStamp
+WowzaStreamingEngine:name=Connections/lastConnectRejectedStampString
+WowzaStreamingEngine:name=Connections/lastConnectRejectedTimeString
+WowzaStreamingEngine:name=Connections/lastDisconnectStamp
+WowzaStreamingEngine:name=Connections/lastDisconnectStampString
+WowzaStreamingEngine:name=Connections/lastDisconnectTimeString
+WowzaStreamingEngine:name=Connections/modelerType
+WowzaStreamingEngine:name=ConnectionsRTMP/current
+WowzaStreamingEngine:name=ConnectionsRTMP/lastConnectAcceptedStamp
+WowzaStreamingEngine:name=ConnectionsRTMP/lastConnectAcceptedStampString
+WowzaStreamingEngine:name=ConnectionsRTMP/lastConnectAcceptedTimeString
+WowzaStreamingEngine:name=ConnectionsRTMP/lastConnectRejectedStamp
+WowzaStreamingEngine:name=ConnectionsRTMP/lastConnectRejectedStampString
+WowzaStreamingEngine:name=ConnectionsRTMP/lastConnectRejectedTimeString
+WowzaStreamingEngine:name=ConnectionsRTMP/lastDisconnectStamp
+WowzaStreamingEngine:name=ConnectionsRTMP/lastDisconnectStampString
+WowzaStreamingEngine:name=ConnectionsRTMP/lastDisconnectTimeString
+WowzaStreamingEngine:name=ConnectionsRTMP/modelerType
+WowzaStreamingEngine:name=ConnectionsRTMP/total
+WowzaStreamingEngine:name=ConnectionsRTMP/totalAccepted
+WowzaStreamingEngine:name=ConnectionsRTMP/totalRejected
+WowzaStreamingEngine:name=ConnectionsRTP/current
+WowzaStreamingEngine:name=ConnectionsRTP/lastConnectAcceptedStamp
+WowzaStreamingEngine:name=ConnectionsRTP/lastConnectAcceptedStampString
+WowzaStreamingEngine:name=ConnectionsRTP/lastConnectAcceptedTimeString
+WowzaStreamingEngine:name=ConnectionsRTP/lastConnectRejectedStamp
+WowzaStreamingEngine:name=ConnectionsRTP/lastConnectRejectedStampString
+WowzaStreamingEngine:name=ConnectionsRTP/lastConnectRejectedTimeString
+WowzaStreamingEngine:name=ConnectionsRTP/lastDisconnectStamp
+WowzaStreamingEngine:name=ConnectionsRTP/lastDisconnectStampString
+WowzaStreamingEngine:name=ConnectionsRTP/lastDisconnectTimeString
+WowzaStreamingEngine:name=ConnectionsRTP/modelerType
+WowzaStreamingEngine:name=ConnectionsRTP/total
+WowzaStreamingEngine:name=ConnectionsRTP/totalAccepted
+WowzaStreamingEngine:name=ConnectionsRTP/totalRejected
+WowzaStreamingEngine:name=Connections/total
+WowzaStreamingEngine:name=Connections/totalAccepted
+WowzaStreamingEngine:name=Connections/totalRejected
+WowzaStreamingEngine:name=HandlerThreadPool/activeCount
+WowzaStreamingEngine:name=HandlerThreadPool/modelerType
+WowzaStreamingEngine:name=HandlerThreadPool/queueSize
+WowzaStreamingEngine:name=IOPerformance/debugLog
+WowzaStreamingEngine:name=IOPerformance/fileInBytes
+WowzaStreamingEngine:name=IOPerformance/fileInBytesRate
+WowzaStreamingEngine:name=IOPerformanceHTTPCupertino/debugLog
+WowzaStreamingEngine:name=IOPerformanceHTTPCupertino/fileInBytes
+WowzaStreamingEngine:name=IOPerformanceHTTPCupertino/fileInBytesRate
+WowzaStreamingEngine:name=IOPerformanceHTTPCupertino/messagesInBytes
+WowzaStreamingEngine:name=IOPerformanceHTTPCupertino/messagesInBytesRate
+WowzaStreamingEngine:name=IOPerformanceHTTPCupertino/messagesInCount
+WowzaStreamingEngine:name=IOPerformanceHTTPCupertino/messagesInCountRate
+WowzaStreamingEngine:name=IOPerformanceHTTPCupertino/messagesLossBytes
+WowzaStreamingEngine:name=IOPerformanceHTTPCupertino/messagesLossBytesRate
+WowzaStreamingEngine:name=IOPerformanceHTTPCupertino/messagesLossCount
+WowzaStreamingEngine:name=IOPerformanceHTTPCupertino/messagesLossCountRate
+WowzaStreamingEngine:name=IOPerformanceHTTPCupertino/messagesOutBytes
+WowzaStreamingEngine:name=IOPerformanceHTTPCupertino/messagesOutBytesRate
+WowzaStreamingEngine:name=IOPerformanceHTTPCupertino/messagesOutCount
+WowzaStreamingEngine:name=IOPerformanceHTTPCupertino/messagesOutCountRate
+WowzaStreamingEngine:name=IOPerformanceHTTPCupertino/modelerType
+WowzaStreamingEngine:name=IOPerformanceHTTPMPEGDash/debugLog
+WowzaStreamingEngine:name=IOPerformanceHTTPMPEGDash/fileInBytes
+WowzaStreamingEngine:name=IOPerformanceHTTPMPEGDash/fileInBytesRate
+WowzaStreamingEngine:name=IOPerformanceHTTPMPEGDash/messagesInBytes
+WowzaStreamingEngine:name=IOPerformanceHTTPMPEGDash/messagesInBytesRate
+WowzaStreamingEngine:name=IOPerformanceHTTPMPEGDash/messagesInCount
+WowzaStreamingEngine:name=IOPerformanceHTTPMPEGDash/messagesInCountRate
+WowzaStreamingEngine:name=IOPerformanceHTTPMPEGDash/messagesLossBytes
+WowzaStreamingEngine:name=IOPerformanceHTTPMPEGDash/messagesLossBytesRate
+WowzaStreamingEngine:name=IOPerformanceHTTPMPEGDash/messagesLossCount
+WowzaStreamingEngine:name=IOPerformanceHTTPMPEGDash/messagesLossCountRate
+WowzaStreamingEngine:name=IOPerformanceHTTPMPEGDash/messagesOutBytes
+WowzaStreamingEngine:name=IOPerformanceHTTPMPEGDash/messagesOutBytesRate
+WowzaStreamingEngine:name=IOPerformanceHTTPMPEGDash/messagesOutCount
+WowzaStreamingEngine:name=IOPerformanceHTTPMPEGDash/messagesOutCountRate
+WowzaStreamingEngine:name=IOPerformanceHTTPMPEGDash/modelerType
+WowzaStreamingEngine:name=IOPerformanceHTTPSanJose/debugLog
+WowzaStreamingEngine:name=IOPerformanceHTTPSanJose/fileInBytes
+WowzaStreamingEngine:name=IOPerformanceHTTPSanJose/fileInBytesRate
+WowzaStreamingEngine:name=IOPerformanceHTTPSanJose/messagesInBytes
+WowzaStreamingEngine:name=IOPerformanceHTTPSanJose/messagesInBytesRate
+WowzaStreamingEngine:name=IOPerformanceHTTPSanJose/messagesInCount
+WowzaStreamingEngine:name=IOPerformanceHTTPSanJose/messagesInCountRate
+WowzaStreamingEngine:name=IOPerformanceHTTPSanJose/messagesLossBytes
+WowzaStreamingEngine:name=IOPerformanceHTTPSanJose/messagesLossBytesRate
+WowzaStreamingEngine:name=IOPerformanceHTTPSanJose/messagesLossCount
+WowzaStreamingEngine:name=IOPerformanceHTTPSanJose/messagesLossCountRate
+WowzaStreamingEngine:name=IOPerformanceHTTPSanJose/messagesOutBytes
+WowzaStreamingEngine:name=IOPerformanceHTTPSanJose/messagesOutBytesRate
+WowzaStreamingEngine:name=IOPerformanceHTTPSanJose/messagesOutCount
+WowzaStreamingEngine:name=IOPerformanceHTTPSanJose/messagesOutCountRate
+WowzaStreamingEngine:name=IOPerformanceHTTPSanJose/modelerType
+WowzaStreamingEngine:name=IOPerformanceHTTPSmooth/debugLog
+WowzaStreamingEngine:name=IOPerformanceHTTPSmooth/fileInBytes
+WowzaStreamingEngine:name=IOPerformanceHTTPSmooth/fileInBytesRate
+WowzaStreamingEngine:name=IOPerformanceHTTPSmooth/messagesInBytes
+WowzaStreamingEngine:name=IOPerformanceHTTPSmooth/messagesInBytesRate
+WowzaStreamingEngine:name=IOPerformanceHTTPSmooth/messagesInCount
+WowzaStreamingEngine:name=IOPerformanceHTTPSmooth/messagesInCountRate
+WowzaStreamingEngine:name=IOPerformanceHTTPSmooth/messagesLossBytes
+WowzaStreamingEngine:name=IOPerformanceHTTPSmooth/messagesLossBytesRate
+WowzaStreamingEngine:name=IOPerformanceHTTPSmooth/messagesLossCount
+WowzaStreamingEngine:name=IOPerformanceHTTPSmooth/messagesLossCountRate
+WowzaStreamingEngine:name=IOPerformanceHTTPSmooth/messagesOutBytes
+WowzaStreamingEngine:name=IOPerformanceHTTPSmooth/messagesOutBytesRate
+WowzaStreamingEngine:name=IOPerformanceHTTPSmooth/messagesOutCount
+WowzaStreamingEngine:name=IOPerformanceHTTPSmooth/messagesOutCountRate
+WowzaStreamingEngine:name=IOPerformanceHTTPSmooth/modelerType
+WowzaStreamingEngine:name=IOPerformance/messagesInBytes
+WowzaStreamingEngine:name=IOPerformance/messagesInBytesRate
+WowzaStreamingEngine:name=IOPerformance/messagesInCount
+WowzaStreamingEngine:name=IOPerformance/messagesInCountRate
+WowzaStreamingEngine:name=IOPerformance/messagesLossBytes
+WowzaStreamingEngine:name=IOPerformance/messagesLossBytesRate
+WowzaStreamingEngine:name=IOPerformance/messagesLossCount
+WowzaStreamingEngine:name=IOPerformance/messagesLossCountRate
+WowzaStreamingEngine:name=IOPerformance/messagesOutBytes
+WowzaStreamingEngine:name=IOPerformance/messagesOutBytesRate
+WowzaStreamingEngine:name=IOPerformance/messagesOutCount
+WowzaStreamingEngine:name=IOPerformance/messagesOutCountRate
+WowzaStreamingEngine:name=IOPerformance/modelerType
+WowzaStreamingEngine:name=IOPerformanceRTMP/debugLog
+WowzaStreamingEngine:name=IOPerformanceRTMP/fileInBytes
+WowzaStreamingEngine:name=IOPerformanceRTMP/fileInBytesRate
+WowzaStreamingEngine:name=IOPerformanceRTMP/messagesInBytes
+WowzaStreamingEngine:name=IOPerformanceRTMP/messagesInBytesRate
+WowzaStreamingEngine:name=IOPerformanceRTMP/messagesInCount
+WowzaStreamingEngine:name=IOPerformanceRTMP/messagesInCountRate
+WowzaStreamingEngine:name=IOPerformanceRTMP/messagesLossBytes
+WowzaStreamingEngine:name=IOPerformanceRTMP/messagesLossBytesRate
+WowzaStreamingEngine:name=IOPerformanceRTMP/messagesLossCount
+WowzaStreamingEngine:name=IOPerformanceRTMP/messagesLossCountRate
+WowzaStreamingEngine:name=IOPerformanceRTMP/messagesOutBytes
+WowzaStreamingEngine:name=IOPerformanceRTMP/messagesOutBytesRate
+WowzaStreamingEngine:name=IOPerformanceRTMP/messagesOutCount
+WowzaStreamingEngine:name=IOPerformanceRTMP/messagesOutCountRate
+WowzaStreamingEngine:name=IOPerformanceRTMP/modelerType
+WowzaStreamingEngine:name=IOPerformanceRTP/debugLog
+WowzaStreamingEngine:name=IOPerformanceRTP/fileInBytes
+WowzaStreamingEngine:name=IOPerformanceRTP/fileInBytesRate
+WowzaStreamingEngine:name=IOPerformanceRTP/messagesInBytes
+WowzaStreamingEngine:name=IOPerformanceRTP/messagesInBytesRate
+WowzaStreamingEngine:name=IOPerformanceRTP/messagesInCount
+WowzaStreamingEngine:name=IOPerformanceRTP/messagesInCountRate
+WowzaStreamingEngine:name=IOPerformanceRTP/messagesLossBytes
+WowzaStreamingEngine:name=IOPerformanceRTP/messagesLossBytesRate
+WowzaStreamingEngine:name=IOPerformanceRTP/messagesLossCount
+WowzaStreamingEngine:name=IOPerformanceRTP/messagesLossCountRate
+WowzaStreamingEngine:name=IOPerformanceRTP/messagesOutBytes
+WowzaStreamingEngine:name=IOPerformanceRTP/messagesOutBytesRate
+WowzaStreamingEngine:name=IOPerformanceRTP/messagesOutCount
+WowzaStreamingEngine:name=IOPerformanceRTP/messagesOutCountRate
+WowzaStreamingEngine:name=IOPerformanceRTP/modelerType
+WowzaStreamingEngine:name=Server/acceptWOWZConnections
+WowzaStreamingEngine:name=Server/adminAgent
+WowzaStreamingEngine:name=Server/adminGUID
+WowzaStreamingEngine:name=Server/clientIdGenerator
+WowzaStreamingEngine:name=Server/clientIdGeneratorRecycleDelaySize
+WowzaStreamingEngine:name=Server/clientIdGeneratorRecycleSize
+WowzaStreamingEngine:name=Server/clientIdGeneratorTimeout
+WowzaStreamingEngine:name=Server/commandInterfaceCommandHandler
+WowzaStreamingEngine:name=Server/committedVirtuallMemory
+WowzaStreamingEngine:name=Server/connectionsMaximum
+WowzaStreamingEngine:name=Server/coreHandlerPoolSize
+WowzaStreamingEngine:name=Server/coreTransportPoolSize
+WowzaStreamingEngine:name=Server/cryptoPoolActiveCount
+WowzaStreamingEngine:name=Server/cryptoPoolMaxSize
+WowzaStreamingEngine:name=Server/currentHeapSize
+WowzaStreamingEngine:name=Server/dateStarted
+WowzaStreamingEngine:name=Server/defaultStreamPrefix
+WowzaStreamingEngine:name=Server/dRMAvailable
+WowzaStreamingEngine:name=Server/dRMInUse
+WowzaStreamingEngine:name=Server/dVRAvailable
+WowzaStreamingEngine:name=Server/dVRInUse
+WowzaStreamingEngine:name=Server/gUID
+WowzaStreamingEngine:name=Server/hTTPHeaderServer
+WowzaStreamingEngine:name=Server/hTTPOriginAvailable
+WowzaStreamingEngine:name=Server/initiateWOWZConnections
+WowzaStreamingEngine:name=Server/liveStreamTranscoderSessionCount
+WowzaStreamingEngine:name=Server/liveThreads
+WowzaStreamingEngine:name=Server/loggingRemoveStdoutIfRunningAsService
+WowzaStreamingEngine:name=Server/maxHeapSize
+WowzaStreamingEngine:name=Server/modelerType
+WowzaStreamingEngine:name=Server/peakThreads
+WowzaStreamingEngine:name=Server/publishersMaximum
+WowzaStreamingEngine:name=Server/pushPublishAvailable
+WowzaStreamingEngine:name=Server/pushPublishUsageTracker
+WowzaStreamingEngine:name=Server/rESTAPIAvailable
+WowzaStreamingEngine:name=Server/restDocumentationServerEnabled
+WowzaStreamingEngine:name=Server/restServerEnabled
+WowzaStreamingEngine:name=Server/rESTUsageTracker
+WowzaStreamingEngine:name=Server/rTMPTHeaderServer
+WowzaStreamingEngine:name=Server/secretKeyTimestamp
+WowzaStreamingEngine:name=Server/serverGUID
+WowzaStreamingEngine:name=Server/sessionGUID
+WowzaStreamingEngine:name=Server/suspended
+WowzaStreamingEngine:name=Server/thumbnailerUsageTracker
+WowzaStreamingEngine:name=Server/timeRunning
+WowzaStreamingEngine:name=Server/timeRunningMillis
+WowzaStreamingEngine:name=Server/timeRunningSeconds
+WowzaStreamingEngine:name=Server/transcoderCaptureManager
+WowzaStreamingEngine:name=Server/transcoderContextServer
+WowzaStreamingEngine:name=Server/transcoderLicenseInUse
+WowzaStreamingEngine:name=Server/transcoderLicenseTotal
+WowzaStreamingEngine:name=Server/transcoderUsageTracker
+WowzaStreamingEngine:name=Server/transcoderVODUsageTracker
+WowzaStreamingEngine:name=Server/transcoderWatermark
+WowzaStreamingEngine:name=Server/tuningHandler
+WowzaStreamingEngine:name=Server/uDPPortManager
+WowzaStreamingEngine:name=Server/uDPPortSharingManager
+WowzaStreamingEngine:name=Server/userAgents
+WowzaStreamingEngine:name=Server/version
+WowzaStreamingEngine:name=Server/vHostList
+WowzaStreamingEngine:name=TransportThreadPool/activeCount
+WowzaStreamingEngine:name=TransportThreadPool/modelerType
+WowzaStreamingEngine:name=TransportThreadPool/queueSize
+WowzaStreamingEngine:vhostItems=VHostConfigs,vhostItem=_defaultVHost_,name=VHostItem/configDir
+WowzaStreamingEngine:vhostItems=VHostConfigs,vhostItem=_defaultVHost_,name=VHostItem/connectionLimit
+WowzaStreamingEngine:vhostItems=VHostConfigs,vhostItem=_defaultVHost_,name=VHostItem/modelerType
+WowzaStreamingEngine:vhostItems=VHostConfigs,vhostItem=_defaultVHost_,name=VHostItem/name
+WowzaStreamingEngine:vhostItems=VHostConfigs,vhostItem=_defaultVHost_,name=VHostItem/visited
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker0/alive
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker0/daemon
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker0/fellBehindCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker0/id
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker0/index
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker0/interrupted
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker0/lastProcessingTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker0/maxProcessingTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker0/minimumWaitTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker0/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker0/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker0/pollFreq
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker0/priority
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker0/running
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker1/alive
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker1/daemon
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker1/fellBehindCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker1/id
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker1/index
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker1/interrupted
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker1/lastProcessingTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker1/maxProcessingTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker1/minimumWaitTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker1/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker1/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker1/pollFreq
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker1/priority
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker1/running
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker2/alive
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker2/daemon
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker2/fellBehindCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker2/id
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker2/index
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker2/interrupted
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker2/lastProcessingTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker2/maxProcessingTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker2/minimumWaitTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker2/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker2/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker2/pollFreq
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker2/priority
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker2/running
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker3/alive
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker3/daemon
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker3/fellBehindCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker3/id
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker3/index
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker3/interrupted
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker3/lastProcessingTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker3/maxProcessingTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker3/minimumWaitTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker3/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker3/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker3/pollFreq
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker3/priority
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker3/running
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker4/alive
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker4/daemon
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker4/fellBehindCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker4/id
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker4/index
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker4/interrupted
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker4/lastProcessingTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker4/maxProcessingTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker4/minimumWaitTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker4/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker4/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker4/pollFreq
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker4/priority
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker4/running
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker5/alive
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker5/daemon
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker5/fellBehindCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker5/id
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker5/index
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker5/interrupted
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker5/lastProcessingTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker5/maxProcessingTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker5/minimumWaitTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker5/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker5/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker5/pollFreq
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker5/priority
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker5/running
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker6/alive
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker6/daemon
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker6/fellBehindCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker6/id
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker6/index
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker6/interrupted
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker6/lastProcessingTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker6/maxProcessingTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker6/minimumWaitTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker6/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker6/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker6/pollFreq
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker6/priority
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker6/running
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker7/alive
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker7/daemon
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker7/fellBehindCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker7/id
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker7/index
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker7/interrupted
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker7/lastProcessingTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker7/maxProcessingTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker7/minimumWaitTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker7/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker7/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker7/pollFreq
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker7/priority
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,idleWorkers=IdleWorkers,idleWorker=IdleWorker7/running
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=Connections/current
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPCupertino/current
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPCupertino/lastConnectAcceptedStamp
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPCupertino/lastConnectAcceptedStampString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPCupertino/lastConnectAcceptedTimeString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPCupertino/lastConnectRejectedStamp
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPCupertino/lastConnectRejectedStampString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPCupertino/lastConnectRejectedTimeString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPCupertino/lastDisconnectStamp
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPCupertino/lastDisconnectStampString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPCupertino/lastDisconnectTimeString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPCupertino/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPCupertino/total
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPCupertino/totalAccepted
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPCupertino/totalRejected
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPMPEGDash/current
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPMPEGDash/lastConnectAcceptedStamp
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPMPEGDash/lastConnectAcceptedStampString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPMPEGDash/lastConnectAcceptedTimeString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPMPEGDash/lastConnectRejectedStamp
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPMPEGDash/lastConnectRejectedStampString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPMPEGDash/lastConnectRejectedTimeString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPMPEGDash/lastDisconnectStamp
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPMPEGDash/lastDisconnectStampString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPMPEGDash/lastDisconnectTimeString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPMPEGDash/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPMPEGDash/total
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPMPEGDash/totalAccepted
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPMPEGDash/totalRejected
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSanJose/current
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSanJose/lastConnectAcceptedStamp
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSanJose/lastConnectAcceptedStampString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSanJose/lastConnectAcceptedTimeString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSanJose/lastConnectRejectedStamp
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSanJose/lastConnectRejectedStampString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSanJose/lastConnectRejectedTimeString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSanJose/lastDisconnectStamp
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSanJose/lastDisconnectStampString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSanJose/lastDisconnectTimeString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSanJose/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSanJose/total
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSanJose/totalAccepted
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSanJose/totalRejected
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSmooth/current
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSmooth/lastConnectAcceptedStamp
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSmooth/lastConnectAcceptedStampString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSmooth/lastConnectAcceptedTimeString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSmooth/lastConnectRejectedStamp
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSmooth/lastConnectRejectedStampString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSmooth/lastConnectRejectedTimeString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSmooth/lastDisconnectStamp
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSmooth/lastDisconnectStampString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSmooth/lastDisconnectTimeString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSmooth/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSmooth/total
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSmooth/totalAccepted
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsHTTPSmooth/totalRejected
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=Connections/lastConnectAcceptedStamp
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=Connections/lastConnectAcceptedStampString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=Connections/lastConnectAcceptedTimeString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=Connections/lastConnectRejectedStamp
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=Connections/lastConnectRejectedStampString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=Connections/lastConnectRejectedTimeString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=Connections/lastDisconnectStamp
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=Connections/lastDisconnectStampString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=Connections/lastDisconnectTimeString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=Connections/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTMP/current
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTMP/lastConnectAcceptedStamp
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTMP/lastConnectAcceptedStampString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTMP/lastConnectAcceptedTimeString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTMP/lastConnectRejectedStamp
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTMP/lastConnectRejectedStampString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTMP/lastConnectRejectedTimeString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTMP/lastDisconnectStamp
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTMP/lastDisconnectStampString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTMP/lastDisconnectTimeString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTMP/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTMP/total
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTMP/totalAccepted
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTMP/totalRejected
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTP/current
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTP/lastConnectAcceptedStamp
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTP/lastConnectAcceptedStampString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTP/lastConnectAcceptedTimeString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTP/lastConnectRejectedStamp
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTP/lastConnectRejectedStampString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTP/lastConnectRejectedTimeString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTP/lastDisconnectStamp
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTP/lastDisconnectStampString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTP/lastDisconnectTimeString
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTP/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTP/total
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTP/totalAccepted
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=ConnectionsRTP/totalRejected
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=Connections/total
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=Connections/totalAccepted
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=Connections/totalRejected
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=HandlerThreadPool/activeCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=HandlerThreadPool/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=HandlerThreadPool/queueSize
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformance/debugLog
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformance/fileInBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformance/fileInBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPCupertino/debugLog
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPCupertino/fileInBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPCupertino/fileInBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPCupertino/messagesInBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPCupertino/messagesInBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPCupertino/messagesInCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPCupertino/messagesInCountRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPCupertino/messagesLossBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPCupertino/messagesLossBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPCupertino/messagesLossCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPCupertino/messagesLossCountRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPCupertino/messagesOutBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPCupertino/messagesOutBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPCupertino/messagesOutCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPCupertino/messagesOutCountRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPCupertino/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPMPEGDash/debugLog
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPMPEGDash/fileInBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPMPEGDash/fileInBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPMPEGDash/messagesInBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPMPEGDash/messagesInBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPMPEGDash/messagesInCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPMPEGDash/messagesInCountRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPMPEGDash/messagesLossBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPMPEGDash/messagesLossBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPMPEGDash/messagesLossCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPMPEGDash/messagesLossCountRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPMPEGDash/messagesOutBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPMPEGDash/messagesOutBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPMPEGDash/messagesOutCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPMPEGDash/messagesOutCountRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPMPEGDash/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSanJose/debugLog
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSanJose/fileInBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSanJose/fileInBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSanJose/messagesInBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSanJose/messagesInBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSanJose/messagesInCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSanJose/messagesInCountRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSanJose/messagesLossBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSanJose/messagesLossBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSanJose/messagesLossCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSanJose/messagesLossCountRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSanJose/messagesOutBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSanJose/messagesOutBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSanJose/messagesOutCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSanJose/messagesOutCountRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSanJose/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSmooth/debugLog
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSmooth/fileInBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSmooth/fileInBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSmooth/messagesInBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSmooth/messagesInBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSmooth/messagesInCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSmooth/messagesInCountRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSmooth/messagesLossBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSmooth/messagesLossBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSmooth/messagesLossCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSmooth/messagesLossCountRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSmooth/messagesOutBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSmooth/messagesOutBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSmooth/messagesOutCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSmooth/messagesOutCountRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceHTTPSmooth/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformance/messagesInBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformance/messagesInBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformance/messagesInCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformance/messagesInCountRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformance/messagesLossBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformance/messagesLossBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformance/messagesLossCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformance/messagesLossCountRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformance/messagesOutBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformance/messagesOutBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformance/messagesOutCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformance/messagesOutCountRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformance/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTMP/debugLog
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTMP/fileInBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTMP/fileInBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTMP/messagesInBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTMP/messagesInBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTMP/messagesInCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTMP/messagesInCountRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTMP/messagesLossBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTMP/messagesLossBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTMP/messagesLossCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTMP/messagesLossCountRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTMP/messagesOutBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTMP/messagesOutBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTMP/messagesOutCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTMP/messagesOutCountRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTMP/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTP/debugLog
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTP/fileInBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTP/fileInBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTP/messagesInBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTP/messagesInBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTP/messagesInCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTP/messagesInCountRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTP/messagesLossBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTP/messagesLossBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTP/messagesLossCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTP/messagesLossCountRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTP/messagesOutBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTP/messagesOutBytesRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTP/messagesOutCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTP/messagesOutCountRate
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOPerformanceRTP/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOScheduler/activeCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOScheduler/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOScheduler/poolSize
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=IOScheduler/queueSize
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=TransportThreadPool/activeCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=TransportThreadPool/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=TransportThreadPool/queueSize
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/applicationTimeout
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/authenticationList
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/byteArrayOutputStreamBaseClassPath
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/clientCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/clientIdleFrequency
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/clientTimeout
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/connectionLimit
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/coreHandlerPoolSize
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/coreTransportPoolSize
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/dateStarted
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/fileIOPoolSize
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/homePath
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/homePathAppPath
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/hTTPPersistentRejectInvalid
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/hTTPProviderContext
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/hTTPStreamerMaxPathLen
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/idleCheckFrequency
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/idleMinimumWaitTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/idleWorkerCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/idleWorkers
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/keepAliveTimeout
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/liveStreamTranscoderSessionCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/maximumPendingReadBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/maximumPendingWriteBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/maximumSetBufferTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/mediaCasterList
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/mediaCasterSettings
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/netConnectionIdleFrequency
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/netConnectionProcessorCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/nextMediaCasterId
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/nextNetConnectionId
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/pingTimeout
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/removeApplications
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/rTPIdleFrequency
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/rTSPMaxPathLen
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/scheduledReadMaxSessionBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/scheduledWriteBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/scheduledWriteMaxSessionBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/scheduledWriteMaxSessionClientId
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/scheduledWriteRequests
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/scheduledWriteSessions
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/shuttingDown
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/startStarupStreams
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/startupStreamsDelayTime
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/suspended
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/timeRunning
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/timeRunningSeconds
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/uDPTransportManager
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/unidentifiedSessionTimeout
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/validationFrequency
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/waitingReadBytes
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/webRTCIdleFrequency
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/webRTCSessionFactory
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/webSocketContext
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=VHost/webSocketSessionCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=WatchDogThread/alive
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=WatchDogThread/daemon
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=WatchDogThread/id
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=WatchDogThread/interrupted
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=WatchDogThread/logContext
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=WatchDogThread/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=WatchDogThread/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=WatchDogThread/priority
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,name=WatchDogThread/runCount
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=chat,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=chat,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=chat,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=chat,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=chat,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=chat,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=chat,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=default,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=default,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=default,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=default,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=default,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=default,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=default,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=file,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=file,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=file,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=file,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=file,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=file,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=file,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httprepeater-buffer,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httprepeater-buffer,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httprepeater-buffer,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httprepeater-buffer,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httprepeater-buffer,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httprepeater-buffer,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httprepeater-buffer,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httprepeater-edge,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httprepeater-edge,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httprepeater-edge,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httprepeater-edge,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httprepeater-edge,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httprepeater-edge,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httprepeater-edge,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httprepeater-origin,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httprepeater-origin,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httprepeater-origin,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httprepeater-origin,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httprepeater-origin,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httprepeater-origin,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httprepeater-origin,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httpstreamer,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httpstreamer,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httpstreamer,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httpstreamer,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httpstreamer,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httpstreamer,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=httpstreamer,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live-lowlatency,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live-lowlatency,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live-lowlatency,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live-lowlatency,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live-lowlatency,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live-lowlatency,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live-lowlatency,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live-record-lowlatency,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live-record-lowlatency,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live-record-lowlatency,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live-record-lowlatency,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live-record-lowlatency,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live-record-lowlatency,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live-record-lowlatency,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live-record,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live-record,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live-record,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live-record,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live-record,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live-record,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=live-record,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-buffer-lowlatency,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-buffer-lowlatency,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-buffer-lowlatency,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-buffer-lowlatency,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-buffer-lowlatency,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-buffer-lowlatency,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-buffer-lowlatency,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-buffer,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-buffer,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-buffer,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-buffer,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-buffer,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-buffer,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-buffer,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-edge-lowlatency,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-edge-lowlatency,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-edge-lowlatency,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-edge-lowlatency,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-edge-lowlatency,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-edge-lowlatency,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-edge-lowlatency,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-edge,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-edge,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-edge,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-edge,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-edge,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-edge,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-edge,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-edge-origin,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-edge-origin,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-edge-origin,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-edge-origin,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-edge-origin,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-edge-origin,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-edge-origin,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-origin,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-origin,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-origin,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-origin,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-origin,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-origin,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-origin,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-origin-record,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-origin-record,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-origin-record,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-origin-record,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-origin-record,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-origin-record,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=liverepeater-origin-record,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=netconnection,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=netconnection,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=netconnection,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=netconnection,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=netconnection,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=netconnection,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=netconnection,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=record,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=record,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=record,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=record,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=record,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=record,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=record,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer-lowlatency,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer-lowlatency,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer-lowlatency,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer-lowlatency,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer-lowlatency,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer-lowlatency,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer-lowlatency,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer-record-lowlatency,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer-record-lowlatency,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer-record-lowlatency,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer-record-lowlatency,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer-record-lowlatency,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer-record-lowlatency,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer-record-lowlatency,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer-record,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer-record,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer-record,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer-record,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer-record,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer-record,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-buffer-record,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live-lowlatency,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live-lowlatency,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live-lowlatency,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live-lowlatency,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live-lowlatency,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live-lowlatency,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live-lowlatency,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live-record-lowlatency,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live-record-lowlatency,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live-record-lowlatency,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live-record-lowlatency,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live-record-lowlatency,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live-record-lowlatency,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live-record-lowlatency,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live-record,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live-record,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live-record,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live-record,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live-record,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live-record,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtp-live-record,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtpout,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtpout,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtpout,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtpout,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtpout,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtpout,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=rtpout,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast-buffer,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast-buffer,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast-buffer,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast-buffer,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast-buffer,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast-buffer,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast-buffer,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast-buffer-record,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast-buffer-record,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast-buffer-record,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast-buffer-record,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast-buffer-record,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast-buffer-record,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast-buffer-record,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast,name=StreamItem/playClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast-record,name=Properties/empty
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast-record,name=Properties/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast-record,name=StreamItem/baseClass
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast-record,name=StreamItem/description
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast-record,name=StreamItem/modelerType
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast-record,name=StreamItem/name
+WowzaStreamingEngine:vHosts=VHosts,vHostName=_defaultVHost_,streamTypes=StreamTypes,streamTypeName=shoutcast-record,name=StreamItem/playClass
