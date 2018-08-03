@@ -1,5 +1,5 @@
 # Installation Wowza on CentOS 7
-1. Download Wowza software from [wowza.com](https://www.wowza.com/pricing/installer)
+1. Download Wowza software `version 4.7.5` from [wowza.com](https://www.wowza.com/pricing/installer)
 2. Installation Wowza successfull
 3. Copy Wowza root folder `WowzaStreamingEngine` to new folder `WowzaStreamingEngine01`
     - Create folder Wowza instance 01
@@ -44,3 +44,4 @@
                 ...
 			    <RMIConnectionPort>18084</RMIConnectionPort>
 			    <RMIRegistryPort>18085</RMIRegistryPort>
+5. [Reference link](https://www.wowza.com/docs/how-to-run-multiple-instances-of-wowza-media-server-on-one-computer)
