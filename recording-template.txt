@@ -1,0 +1,4 @@
+    ${SourceStreamName} - The name of the live stream.  
+    ${SegmentNumber} - An incrementing value that represents the current number of recorded segments that have been created for this live stream, starting at 0.  
+    ${RecordingStartTime} - The time at which the recording was started.  
+    ${SegmentTime} - The time at which the recorded segment was created.
