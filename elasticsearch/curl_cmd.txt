@@ -1,0 +1,1 @@
+curl -XPUT 'http://42.117.7.84:9200/books/elasticsearch/1' -H 'Content-Type: application/json' -d '{ "name":"Elasticsearch Essentials", "author":"Bharvi Dixit", "tags":["Data Analytics","Text Search","Elasticsearch"], "content":"Added with PUT request" }'
