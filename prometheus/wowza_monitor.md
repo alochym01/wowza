@@ -7,3 +7,9 @@
 
       - rules:
         - pattern: ".*"
+
+- Install Oracle jdk version 1.8.0_181
+- we are using javaagent in wowza server
+    -   run cli 
+    
+            java -javaagent:./jmx_prometheus_javaagent-0.3.1.jar=8080:example_configs/httpserver_sample_config.yml -jar jmx_prometheusttpserver/target/jmx_prometheus_httpserver-0.3.2-SNAPSHOT-jar-with-dependencies.jar 5555 example_configs/httpserver_sample_config.yml
