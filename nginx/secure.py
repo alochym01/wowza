@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# https://github.com/maratsh/getsecure
+
 import hashlib
 from base64 import b64encode
 from datetime import datetime, timedelta
