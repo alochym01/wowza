@@ -7,3 +7,4 @@
 - [config nginx](https://raw.githubusercontent.com/alochym01/wowza/master/nginx/localhost.conf) for local web server running at 127.0.0.1, has a WebHD_720p.mp4 file
 - [config nginx](https://raw.githubusercontent.com/alochym01/wowza/master/nginx/secure-link.conf) for web server running at 192.168.56.101. This server acts as reverse proxy
 - access to result of cli
+- --period time valids in days unit
